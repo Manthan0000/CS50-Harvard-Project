@@ -1,0 +1,49 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Footer */
+.navbar {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 1rem 0;
+}
+
+/* Buttons */
+button {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    transition: transform 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+/* Container Content */
+.container h1 {
+    color: #007bff;
+}
+
+.container p {
+    font-size: 1.1rem;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .container h1 {
+        font-size: 1.5rem;
+    }
+
+    .container p {
+        font-size: 1rem;
+    }
+}
